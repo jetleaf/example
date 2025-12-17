@@ -1,0 +1,20 @@
+name: example
+version: 1.0.0
+description: A new Jetleaf project.
+publish_to: 'none'
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  jetleaf: ^1.0.9
+  jetleaf_scheduling: ^1.0.9
+  jetleaf_resource: ^1.0.9
+  jetleaf_web: ^1.0.8
+  jetleaf_validation: ^1.0.9
+  jetleaf_retry: ^1.0.9
+  jetleaf_data: ^1.0.8
+  build_runner: ^2.10.1
+
+dev_dependencies:
+  jetleaf_devtool: ^1.0.9
